@@ -1,0 +1,55 @@
+.sidebar {
+  width: 80px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 170px 0;
+  border-radius: 20px 20px 20px 20px;
+}
+
+/* Style for both regular icons and link icons */
+.bi, .nav-link .bi {
+  display: inline-flex;
+  align-items: center;
+  color: #2D343E;
+  transition: all 0.3s ease;
+  gap: 10px; 
+  cursor: pointer;
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: 20px;
+  box-shadow: 1px 4px 12px -2px #ffffff33;
+  box-sizing: content-box;
+  width: 20px;
+  padding: 15px;
+  justify-content: center;
+}
+
+/* Style for hover effects on both icons and link icons */
+.bi:hover, .nav-link:hover .bi {
+  background: linear-gradient(
+    90deg,
+    rgba(94, 114, 228, 1) 0%,
+    rgba(128, 95, 228, 1) 100%
+  );
+  color: white;
+  transform: scale(1);
+}
+
+/* Make the link itself take the proper dimensions */
+.nav-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  margin: 20px 0;
+  /* Make sure the link doesn't have padding that interferes with clicks */
+  padding: 0;
+  /* Ensure the Link has proper dimensions */
+  width: auto;
+  height: auto;
+}
+  
+  
+  

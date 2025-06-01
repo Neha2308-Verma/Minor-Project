@@ -1,0 +1,24 @@
+.controls {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .control-btn {
+    padding: 12px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 16px;
+     background: linear-gradient(to right, #d8d8f8, #cfd7ff);
+    color: #4b379b;
+    /* background: linear-gradient(to right , #5E72E4 , #805FE4);    */
+    /* color: white; */
+    cursor: pointer;
+  }
+  
+  .control-btn:hover {
+    background: linear-gradient(to right , #5E72E4 , #805FE4);    
+    color: white;
+   }
+  
