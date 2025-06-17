@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+  background-color: #1e2a32;
+}
+
+/* Right side */
+.right-panel{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%; /* or set a fixed height */
+}
+.right-top-panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  width: 300px;
+  height: 400px;
+  background: #fff;
+  border-radius: 20px 20px 20px 20px;
+}
+.right-bottom-panel {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 35px;
+  width: 300px;
+  background: #fff;
+  border-radius: 20px 20px 20px 20px;
+}
